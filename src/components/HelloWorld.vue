@@ -30,10 +30,12 @@ export default {
       console.log('a:', a);
       const b = a + 10;
       console.log("b:", b)
+
+      
       if(b > 21){
 
       }else{
-        
+
       }
     }
   }
