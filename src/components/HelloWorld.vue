@@ -27,11 +27,12 @@ export default {
   methods: {
     handleHello(){
       let a = 10;
+      const str  = "abcdefg";
       console.log('a:', a);
       const b = a + 10;
       console.log("b:", b)
 
-      
+
       if(b > 21){
 
       }else{
