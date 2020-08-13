@@ -85,7 +85,13 @@
   ],
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "src/**/*.js": ["prettier --parser flow --write", "eslint --cache --fix", "git add"],
+    "src/**/*.vue": ["prettier --parser vue --write", "eslint --cache --fix", "git add"]
   }
+
 }

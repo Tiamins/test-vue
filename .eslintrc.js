@@ -1,12 +1,12 @@
 module.exports = {
   root: true,
-  end: {
-    browse: true,
+  env: {
+    browser: true,
   },
   extends: [
-    "eslint: recommended",
-    "plugin: vue/recommended",
-    "plugin: prettier/recommended",
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "plugin:prettier/recommended",
     "prettier/vue",
   ],
   rules: {
@@ -18,5 +18,9 @@ module.exports = {
     ],
     "vue/html-self-closing": "error",
   },
-
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
+  },
 }
