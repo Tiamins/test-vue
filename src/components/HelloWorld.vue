@@ -10,6 +10,9 @@
 			</li>
 		</ul>
 		<div class="title" @click="handleHello">Hello</div>
+		<template>
+			<div :class="cls">red</div>
+		</template>
 	</div>
 </template>
 
@@ -19,14 +22,15 @@ export default {
 	data() {
 		return {
 			msg: 'Welcome to Your Vue.js App',
+			cls: 'good',
 		}
 	},
 	methods: {
 		handleHello() {
-			// const a = 10;
-			// console.log('a:', a);
-			// const b = a + 10;
-			// console.log("b:", b)
+			const a = 10
+			console.log('a:', a)
+			const b = a + 10
+			console.log('b:', b)
 		},
 	},
 }
@@ -48,5 +52,8 @@ li {
 }
 a {
 	color: #42b983;
+}
+.good {
+	color: red;
 }
 </style>
