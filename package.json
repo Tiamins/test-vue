@@ -90,8 +90,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": ["prettier --parser flow --write", "eslint --cache --fix", "git add"],
-    "src/**/*.vue": ["prettier --parser vue --write", "eslint --cache --fix", "git add"]
+    "src/**/*.js": ["prettier --parser flow --write", "eslint --cache --fix"],
+    "src/**/*.vue": ["prettier --parser vue --write", "eslint --cache --fix"]
   }
 
 }
