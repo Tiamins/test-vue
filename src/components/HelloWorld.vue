@@ -37,7 +37,7 @@ export default {
 				a,
 				d: a + b,
 			}
-			// console.log(obj)
+			console.log(obj)
 		},
 	},
 }
