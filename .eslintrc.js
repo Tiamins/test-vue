@@ -17,6 +17,7 @@ module.exports = {
       {endOfLine: "auto"},
     ],
     "vue/html-self-closing": "error",
+    "no-unused-vars": 0,
   },
   parserOptions: {
     ecmaFeatures: {

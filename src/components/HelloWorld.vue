@@ -26,7 +26,7 @@ export default {
 		}
 	},
 	methods: {
-		handleHello() {
+		async handleHello() {
 			const a = 10
 			console.log('a:', a)
 			const b = a + 10
@@ -37,7 +37,7 @@ export default {
 				a,
 				d: a + b,
 			}
-			console.log(obj)
+			// console.log(obj)
 		},
 	},
 }
