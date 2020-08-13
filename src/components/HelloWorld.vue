@@ -31,6 +31,13 @@ export default {
 			console.log('a:', a)
 			const b = a + 10
 			console.log('b:', b)
+			let c = 12
+			const obj = {
+				c,
+				a,
+				d: a + b,
+			}
+			console.log(obj)
 		},
 	},
 }
