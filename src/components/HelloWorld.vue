@@ -36,7 +36,6 @@ export default {
 				c,
 				a,
 				d: a + b,
-				f: a - b,
 			}
 			console.log(obj)
 		},
