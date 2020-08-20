@@ -28,7 +28,6 @@ export default {
 	methods: {
 		async handleHello() {
 			const a = 10
-			console.log('a:', a)
 			const b = a + 10
 			console.log('b:', b)
 			let c = 12
