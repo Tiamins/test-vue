@@ -22,7 +22,7 @@ export default {
 	name: 'HelloWorld',
 	data() {
 		return {
-			msg: 'Welcome to husky',
+			msg: 'Welcome to Your Vue.js App',
 			cls: 'good',
 		}
 	},
