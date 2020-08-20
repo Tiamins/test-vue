@@ -12,6 +12,7 @@
 		<div class="title" @click="handleHello">Hello</div>
 		<template>
 			<div :class="cls">red</div>
+			<div>hello</div>
 		</template>
 	</div>
 </template>
@@ -30,10 +31,9 @@ export default {
 			const a = 10
 			console.log('a:', a)
 			const b = a + 10
-			console.log('b:', b)
-			let c = 12
+			let ef = 12
 			const obj = {
-				c,
+				ef,
 				a,
 				d: a + b,
 				f: a - b,
