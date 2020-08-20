@@ -21,7 +21,7 @@ export default {
 	name: 'HelloWorld',
 	data() {
 		return {
-			msg: 'Welcome to Your Vue.js App',
+			msg: 'Welcome to husky',
 			cls: 'good',
 		}
 	},
