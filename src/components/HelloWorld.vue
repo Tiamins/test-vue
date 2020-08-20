@@ -12,6 +12,7 @@
 		<div class="title" @click="handleHello">Hello</div>
 		<template>
 			<div :class="cls">red</div>
+			<div :class="cls">blue</div>
 		</template>
 	</div>
 </template>
@@ -21,7 +22,7 @@ export default {
 	name: 'HelloWorld',
 	data() {
 		return {
-			msg: 'Welcome to Your Vue.js App',
+			msg: 'Welcome to Your husky',
 			cls: 'good',
 		}
 	},
