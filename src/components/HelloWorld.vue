@@ -12,12 +12,6 @@
 		<div class="title" @click="handleHello">Hello</div>
 		<template>
 			<div :class="cls">red</div>
-			<div :class="cls">blue</div>
-			<div :class="cls">green</div>
-			<div :class="cls">gray</div>
-			<div :class="cls">purple</div>
-			<div :class="cls">pink</div>
-			<div :class="cls">white</div>
 		</template>
 	</div>
 </template>
