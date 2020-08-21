@@ -15,6 +15,7 @@
 			<div :class="cls">blue</div>
 			<div :class="cls">green</div>
 			<div :class="cls">gray</div>
+			<div :class="cls">dark</div>
 		</template>
 	</div>
 </template>
